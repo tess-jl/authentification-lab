@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1576796847014" clover="3.2.0">
-  <project timestamp="1576796847015" name="All files">
-    <metrics statements="58" coveredstatements="53" conditionals="11" coveredconditionals="9" methods="13" coveredmethods="11" elements="82" coveredelements="73" complexity="0" loc="58" ncloc="58" packages="5" files="6" classes="6"/>
+<coverage generated="1576798068495" clover="3.2.0">
+  <project timestamp="1576798068496" name="All files">
+    <metrics statements="61" coveredstatements="56" conditionals="11" coveredconditionals="9" methods="14" coveredmethods="12" elements="86" coveredelements="77" complexity="0" loc="61" ncloc="61" packages="5" files="6" classes="6"/>
     <package name="lib">
       <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.js" path="/Users/Tess/alchemy/career-track/week-03/authentification-lab/lib/app.js">
@@ -37,14 +37,14 @@
       </file>
     </package>
     <package name="lib.models">
-      <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <metrics statements="22" coveredstatements="22" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
       <file name="User.js" path="/Users/Tess/alchemy/career-track/week-03/authentification-lab/lib/models/User.js">
-        <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <metrics statements="22" coveredstatements="22" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="21" count="2" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
         <line num="29" count="4" type="stmt"/>
         <line num="34" count="1" type="stmt"/>
@@ -59,20 +59,23 @@
         <line num="48" count="1" type="stmt"/>
         <line num="49" count="1" type="stmt"/>
         <line num="51" count="1" type="stmt"/>
-        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
       </file>
     </package>
     <package name="lib.routes">
-      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <file name="auth.js" path="/Users/Tess/alchemy/career-track/week-03/authentification-lab/lib/routes/auth.js">
-        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="13" count="3" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
       </file>
     </package>
     <package name="lib.utils">
