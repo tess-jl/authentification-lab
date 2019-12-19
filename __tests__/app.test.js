@@ -4,6 +4,7 @@ const request = require('supertest');
 const app = require('../lib/app');
 const connect = require('../lib/utils/connect');
 const mongoose = require('mongoose');
+const User = require('../lib/models/User');
 
 describe('app routes', () => {
   beforeAll(() => {
@@ -14,7 +15,26 @@ describe('app routes', () => {
     return mongoose.connection.dropDatabase();
   });
 
+
   afterAll(() => {
     return mongoose.connection.close();
   });
+
+  it('can sigup a new user', () => {
+    return request(app)
+      .post('/api/v1/auth/signup')
+      .send({ email: 'tess@tess.com', password: 'realpassword' })
+      .then(res => {
+        expect(res.body).toEqual({
+          _id: expect.any(String), 
+          email: 'tess@tess.com',
+          __v: 0
+        });
+      });
+
+  });
+
+
+
+
 });
