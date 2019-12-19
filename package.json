@@ -1,5 +1,5 @@
 {
-  "name": ".",
+  "name": "authentification-lab",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -23,8 +23,21 @@
     "supertest": "^4.0.2"
   },
   "dependencies": {
+    "bcrypt": "^3.0.7",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.8.1"
-  }
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.1",
+    "express": "^4.17.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tess-jl/authentification-lab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tess-jl/authentification-lab/issues"
+  },
+  "homepage": "https://github.com/tess-jl/authentification-lab#readme"
 }
